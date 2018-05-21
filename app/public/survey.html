@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+</head>
+
+<body>
+
+    <form>
+        <div class="form-group">
+            <label for="userName">Name (Required)</label>
+            <input type="email" class="form-control" placeholder="Name or Alias" id="userName">
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="userPic">Link to Photo Image (Required)</label>
+                <input type="text" class="validate" placeholder="Photo Link Here" id="userPic">
+            </div>
+        </form>
+        <div class="form-group">
+            <label for="question1">Question One</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                Your mind is always buzzing with unexplored ideas and plans.
+            </medium>
+            <select class="custom-select mr-sm-2" id="question1">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="question2">Question Two</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                Generally speaking, you rely more on your experience than your imagination.
+            </medium>
+            <select class="custom-select mr-sm-2" id="question2">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="question3">Question Three</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                You find it easy to stay relaxed and focused even when there is some pressure.
+            </medium>
+            <select class="custom-select mr-sm-2" id="question3">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="question4">Question Four</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                You rarely do something just out of sheer curiosity.
+
+            </medium>
+            <select class="custom-select mr-sm-2" id="question4">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="question5">Question Five</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                People can rarely upset you.
+            </medium>
+            <select class="custom-select mr-sm-2" id="question5">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="question6">Question Six</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                It is often difficult for you to relate to other people’s feelings.
+            </medium>
+            <select class="custom-select mr-sm-2" id="question6">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="question7">Question Seven</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                In a discussion, truth should be more important than people’s sensitivities.
+            </medium>
+            <select class="custom-select mr-sm-2" id="question7">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="question8">Question Eight</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                You rarely get carried away by fantasies and ideas.
+            </medium>
+            <select class="custom-select mr-sm-2" id="question8">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="question9">Question Nine</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                You think that everyone’s views should be respected regardless of whether they are supported by facts or not.
+            </medium>
+            <select class="custom-select mr-sm-2" id="question9">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="question10">Question Ten</label>
+            <medium id="passwordHelpBlock" class="form-text text-info">
+                You feel more energetic after spending time with a group of people.
+            </medium>
+            <select class="custom-select mr-sm-2" id="question10">
+                <option selected>Choose...</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="3">Five (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary submit">Submit</button>
+
+    </form>
+    
+    <!-- Modal not working
+    <div class="modal-overlay" id="modal-overlay"></div>
+
+    <div class="modal" id="modal">
+        <button type="button" class="btn btn-primary" data-toggle="" data-target="#mymodal">click</button>"
+    </div>
+    <div class='modal fade' id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Your Match</h1>
+                </div>
+                <div class="modal-body">
+                    <p>something</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>"
+                </div>
+            </div>
+
+        </div>
+    </div>
+-->
+
+    <div>
+        <a href="/api/friends">API Friends List</a>
+    </div>
+
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+        var newFriend = {
+            name: $("#userName").val().trim(),
+            photo: $("#userPic").val().trim(),
+            scores: [
+                $("#question1").val().trim(),
+                $("#question2").val().trim(),
+                $("#question3").val().trim(),
+                $("#question4").val().trim(),
+                $("#question5").val().trim(),
+                $("#question6").val().trim(),
+                $("#question7").val().trim(),
+                $("#question8").val().trim(),
+                $("#question9").val().trim(),
+                $("#question10").val().trim()
+            ]
+        };
+
+
+        
+
+        $.post("/api/friends", newFriend,
+            function (err, data) {
+
+                if (err) {
+                    console.log(err);
+                }
+
+                $("#userName").val(""),
+                    $("#userPic").val(""),
+                    $("#question1").val(""),
+                    $("#question2").val(""),
+                    $("#question3").val(""),
+                    $("#question4").val(""),
+                    $("#question5").val(""),
+                    $("#question6").val(""),
+                    $("#question7").val(""),
+                    $("#question8").val(""),
+                    $("#question9").val(""),
+                    $("#question10").val("")
+            });
+    });
+</script>

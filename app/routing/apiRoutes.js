@@ -28,8 +28,9 @@ module.exports = function (app) {
         }
 
         friendList.push(userInput);
-        response.json(userMatch);
-
+       // response.json(userMatch);
+        response.send(userMatch)
+       // console.log(userMatch);
         console.log(userInput);
         
 
